@@ -3,13 +3,31 @@
 # Abstract
 The OpenSubtitles2018 database contains subtitles from more than 150 thousand movies released between the late 19th century and today. The language used in a movie is one of its most important parts. People usually remember the best lines or dialogues from their favorite movies. 
 
-In our project we will rigorously analyze a movie's language properties: its simplicity or complexity, its mildness or strongness and explore how these attributes have changed over time. Films are usually classified into genres and we therefore aim to analyse how the aforementioned language properties differ across genres.
+In our project we will rigorously analyze a movie's language properties: its simplicity or complexity, its positiveness or negativeness, its mildness or strongness and explore how these attributes have changed over time. Moreover, films can usually be classified into genres and we therefore aim to analyse how the aforementioned language properties differ across genres.
 
-The analysis of these properties will give us a fuller picture of movie history and the connection between the two medias - the textual and the visual. And after all, the language used in movies reflect the language used by ordinary people in everyday life. Therefore this analysis might give us some insight into language evolvement in general as well.
+Another interesting questions is how important the language properties are for a movie's success? Is it possible to find a correlation between the language properties of a movie and how well perceived the movie was by the public? This is a another question we aim to answer in our project.
+
+To summarize, the analysis of the language properties of movies will give us a fuller picture of movie history and the connection between the two medias - the textual and the visual. And after all, the language used in movies reflect the language used by ordinary people in everyday life. Therefore this analysis might give us some insight into language evolvement in general as well.
+
 
 
 # Research questions
 __Generally, we are focusing on the language used in films.__
+
+* _How has the language in films evolved over time?_ 
+  * Are films using more violent and strong langauge now compared to before?
+  * Is the language used in films more or less complex nowdays compared to the past?
+  * Is the language used more positive or negative in films today compared to the past? 
+* _What are the differences in language across genres?_
+  * Does the language properties mentioned above differ across genres? 
+* _How does a movies language properties affect the public's perception of a movie?_
+   * Is it possible to find a positive or negative correlation between the above mentioned language properties and the public's opinion about a movie?
+
+
+
+
+ OLD REASEACH QUESTIONS 
+
 * _How has the language in films evolved over time?_ 
     * Are films using more violent and strong language now compared to before?
     * Are films becoming less "intelectual" and use more simple dialogues?
