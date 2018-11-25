@@ -1,4 +1,4 @@
-# The evolution of the language of films
+# The evolution of language in films
 
 # Abstract
 The OpenSubtitles2018 database contains subtitles from more than 150 thousand movies released between the late 19th century and today. The language used in a movie is one of its most important parts. People usually remember the best lines or dialogues from their favorite movies. 
@@ -25,17 +25,6 @@ __Generally, we are focusing on the language used in films.__
 
 
 
-
- OLD REASEACH QUESTIONS 
-
-* _How has the language in films evolved over time?_ 
-    * Are films using more violent and strong language now compared to before?
-    * Are films becoming less "intelectual" and use more simple dialogues?
-* _What are the differences in language across genres?_
-    * Are some genres using more or less sophisticated language?
-    * Are some genres catering to a specific audience/age group? 
-
-
 # Dataset
 The primary dataset we are using is the _OpenSubtitles2018_ dataset. The dataset has film subtitles for three languages: English, French and Chinese. We are going to use only the English part. It has 25 GB of data and offers film subtitles from the late 19th century to 2018. 
 
@@ -57,15 +46,18 @@ In addition to the subtitles, some meta data is given about the film: duration, 
 
 The OpenSubtitles2018 dataset contains the IMDB id of each movie. We can use this id to connect the OpenSubtitles2018 dataset with the IMDB datasets. The IMDB dataset which will be used in this project is the ratings dataset which contain the average rating and number of votes for all movies in the IMDB dataset. The ratings dataset is stored in TSV format (tab-seperated-values) and is freely distributed by IMDB (https://datasets.imdbws.com/).
 
-# A list of internal milestones up until project milestone 3
-
-Should we add our milestone 3 goals here?
-
 # A list of internal milestones up until project milestone 2
 1. convert the subtitle data from XML to a more appropriate format
 2. clean the data and deal with missing/inconsistent values
 3. merge our dataset with the IMDB dataset to get more features
 4. do some descriptive statistics
 5. explore how to quantify language complexity and strongness.
+
+# A list of internal milestones up until project milestone 3
+1. Perform text complexity analysis
+2. Perform sentimental analysis
+3. Perform offensive language analysis
+4. Explore correlation between text properties and IMDB ratings
+5. Create a data story from obtained results
 
 # Questions for TA
