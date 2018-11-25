@@ -5,7 +5,7 @@ The OpenSubtitles2018 database contains subtitles from more than 150 thousand mo
 
 In our project we will rigorously analyze a movie's language properties: its simplicity or complexity, its positiveness or negativeness, its mildness or strongness and explore how these attributes have changed over time. Moreover, films can usually be classified into genres and we therefore aim to analyse how the aforementioned language properties differ across genres.
 
-Another interesting questions is how important the language properties are for a movie's success? Is it possible to find a correlation between the language properties of a movie and how well perceived the movie was by the public? This is a another question we aim to answer in our project.
+Another interesting questions is how important the language properties are for a movie's success? Is it possible to find a correlation between the above mentioned language properties and how well perceived the movie was by the public? This is a another question we aim to answer in our project.
 
 To summarize, the analysis of the language properties of movies will give us a fuller picture of movie history and the connection between the two medias - the textual and the visual. And after all, the language used in movies reflect the language used by ordinary people in everyday life. Therefore this analysis might give us some insight into language evolvement in general as well.
 
@@ -55,7 +55,11 @@ a sentence contained in one of the subtitle files:
 ```
 In addition to the subtitles, some meta data is given about the film: duration, date genre, number of sentences, etc.
 
-The id of the film is given, which is an IMDB identifier. We can use this id to connect the OpenSubtitles2018 dataset to the IMDB datasets. The IMDB datasets contain a lot of information about movies such as the average score, actors and director. By connecting the OpenSubtitles2018 dataset with the IMDB dataset we can get more interesting data for each movie, thus enriching our dataset.  
+The OpenSubtitles2018 dataset contains the IMDB id of each movie. We can use this id to connect the OpenSubtitles2018 dataset with the IMDB datasets. The IMDB dataset which will be used in this project is the ratings dataset which contain the average rating and number of votes for all movies in the IMDB dataset. The ratings dataset is stored in TSV format (tab-seperated-values) and is freely distributed by IMDB (https://datasets.imdbws.com/).
+
+# A list of internal milestones up until project milestone 3
+
+Should we add our milestone 3 goals here?
 
 # A list of internal milestones up until project milestone 2
 1. convert the subtitle data from XML to a more appropriate format
