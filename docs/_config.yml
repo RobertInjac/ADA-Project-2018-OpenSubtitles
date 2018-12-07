@@ -1,1 +1,6 @@
-theme: jekyll-theme-cayman
+remote_theme: daviddarnes/alembic
+
+plugins:
+  - jekyll-remote-theme
+
+avatarurl: "/assets/dlab.svg"
