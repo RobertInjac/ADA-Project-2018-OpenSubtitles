@@ -1,7 +1,7 @@
 ---
 feature_text: | 
     # <span style="color:black;background-color:#eabb53">The Evolution of Language in Films</span> 
-feature_image: "/assets/film_reel.jpg"
+feature_image: "./assets/film_reel.jpg"
 background-color: #eabb53
 ---
 
