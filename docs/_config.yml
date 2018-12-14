@@ -4,3 +4,5 @@ plugins:
   - jekyll-remote-theme
 
 avatarurl: "/assets/dlab.svg"
+name: The Evolution of Language in Films
+description: A Data Story
