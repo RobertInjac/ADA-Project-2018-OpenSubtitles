@@ -15,14 +15,28 @@ Before starting the analysis, it is important to give some main facts about our 
 
 ![desc_stat_1](./assets/plot1.png)
 
-As we can see on the left plot above, we mostly have newer films in our dataset. Every time we do an analysis of some film property by decade, you must know that the analysis we are much sure for 
+As you can see on the left plot above, we mostly have new films in our dataset. Every time we do an analysis of some film property by decade, you must know that the conclusions will be more grounded for the last two-three decades than anything before that. There were simply less films produced back then.
 
-Most interesting desc stats
-(duration per decade, etc)
+On the right plot above is shown a distribution of genres. For some genres, such as drama, comedy or action we have a lot of data. But for some more specific genres such as musical or Western we don't have so many films, so when we do analysis by genre you must know that conclusions for those genres might be biased (due to small sample size). 
+
+
+
+![desc_stat_2](./assets/plot2.png)
+
+On the plots above we can see some statistics about IMDB ratings of our movies. It seems that the old movies were rated a bit better than the new ones, and the trend seems to go toward lower ratings.
+While it's possible that a higher proportion of new films is of low quality, it could also be a bias in our dataset: nobody uploads subtitles for low quality old movies on OpenSubtitles website. 
+
+As can be seen on the right plot, IMDB ratings are approximately normally distributed with mean of 6.5. Getting a film to score over 9 might be harder than winning an Oscar!
 
 ### The Lowest Common Denominator
 
 Films are generally expensive to make, and are made primarly for profit. But how can your movie sell well if most people don't understand it? Your film might be a stroke of genius, but general audience might be more interested in toilet humor than your intelectual rambling. Many cinemaphiles claim this is reason why most movies are "dumbed-down", and this phenomenon is generally known as the [lowest common denominator](https://tvtropes.org/pmwiki/pmwiki.php/Main/LowestCommonDenominator). 
+
+Quantifying complexity of a film is a difficult task. What does it mean for a film to be complex? Longer sentences? More "smart" words? We decided to use an already existing metric to quantify complexity of our films. The [Dale-Chall readability formula](https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula) measures how readable a text is. Larger score means the text is less readable. Considering that readability in Dale-Chall formula is calculated by measuring the number of difficult words and the length of the sentences, __we will assume that readability it is a good proxy for complexity__. In other words, less readable text should be more complex.
+
+(average read. per decade plot)
+
+On the above plot, we can see the average readability per decade. It seems that readability is pretty much constant in time. All decades score between 6 and 7, which  means that the typical film can be "easily understood by an average 7th or 8th-grade student" (according to the table attached to the Dale-Chall formula). 
 
 ### The F-bombs
 
