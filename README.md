@@ -1,17 +1,17 @@
 # The evolution of language in films
 
-# Abstract
+__[Link](https://robertinjac.github.io/ADA-Project-2018-OpenSubtitles/) to the data story.__
+
+## Abstract
 The OpenSubtitles2018 database contains subtitles from more than 150 thousand movies released between the late 19th century and today. The language used in a movie is one of its most important parts. People usually remember the best lines or dialogues from their favorite movies. 
 
-In our project we will rigorously analyze a movie's language properties: its simplicity or complexity, its positiveness or negativeness, its mildness or strongness and explore how these attributes have changed over time. Moreover, films can usually be classified into genres and we therefore aim to analyse how the aforementioned language properties differ across genres.
+In our project we rigorously analyzed a movie's language properties: its simplicity or complexity, its positiveness or negativeness, its mildness or strongness and have explored how these attributes have changed over time. Moreover, films can usually be classified into genres and we therefore analysed how the aforementioned language properties differ across genres.
 
-Another interesting questions is how important the language properties are for a movie's success? Is it possible to find a correlation between the above mentioned language properties and how well perceived the movie was by the public? This is a another question we aim to answer in our project.
+Another interesting questions is how important the language properties are for a movie's success? Is it possible to find a correlation between the above mentioned language properties and how well perceived the movie was by the public? This is a another question we have answered in our project.
 
-To summarize, the analysis of the language properties of movies will give us a fuller picture of movie history and the connection between the two medias - the textual and the visual. And after all, the language used in movies reflect the language used by ordinary people in everyday life. Therefore this analysis might give us some insight into language evolvement in general as well.
+To summarize, the analysis of the language properties of movies gave us a fuller picture of movie history and the connection between the two medias - the textual and the visual. And after all, the language used in movies reflect the language used by ordinary people in everyday life. 
 
-
-
-# Research questions
+## Research questions
 __Generally, we are focusing on the language used in films.__
 
 * _How has the language in films evolved over time?_ 
@@ -24,8 +24,7 @@ __Generally, we are focusing on the language used in films.__
    * Is it possible to find a positive or negative correlation between the above mentioned language properties and the public's opinion about a movie?
 
 
-
-# Dataset
+## Dataset
 The primary dataset we are using is the _OpenSubtitles2018_ dataset. The dataset has film subtitles for three languages: English, French and Chinese. We are going to use only the English part. It has 25 GB of data and offers film subtitles from the late 19th century to 2018. 
 
 The format of the dataset is easy to use. For each year we have a folder of the films that were released that year. Then, for every film we have an XML file with its subtitles. Here is an example of 
@@ -44,20 +43,24 @@ a sentence contained in one of the subtitle files:
 ```
 In addition to the subtitles, some meta data is given about the film: duration, date genre, number of sentences, etc.
 
-The OpenSubtitles2018 dataset contains the IMDB id of each movie. We can use this id to connect the OpenSubtitles2018 dataset with the IMDB datasets. The IMDB dataset which will be used in this project is the ratings dataset which contain the average rating and number of votes for all movies in the IMDB dataset. The ratings dataset is stored in TSV format (tab-seperated-values) and is freely distributed by IMDB (https://datasets.imdbws.com/).
+The OpenSubtitles2018 dataset contains the IMDB id of each movie. We used this id to connect the OpenSubtitles2018 dataset with the IMDB datasets. The IMDB dataset which was used in this project is the ratings dataset which contains the average rating and number of votes for all movies in the IMDB dataset. The ratings dataset is stored in TSV format (tab-seperated-values) and is freely distributed by IMDB (https://datasets.imdbws.com/).
 
 
-# Contributions of all group members
+## Contributions of all group members
 
-## Jakob Svenningsson
+### Jakob Svenningsson
 
-* Intial collection of data. This was done by extracting the subtitles originally stored as XML files to spark dataframes.
-* Collection of results. I wrote the scripts which calculated our results which was run on the cluster.
-* Did parts of the descriptive statistics and analysis. 
-* Created all plots for the data story.
-* Worked on problem formulation in collaboration with Robert.
-## Robert Injac
+* Worked on problem formulation and planning in collaboration with Robert 
+* Extracting of subtitle data from its original storage format (XML) to spark dataframes. This was done using the provided cluster.
+* Did parts of the descriptive statistics and analysis.
+* Collection of results. I wrote the spark scripts which were used to calculate our  results and ran the scripts on the cluster.
+* Created all the plots for the data story.
 
+### Robert Injac
 
+* Worked on problem formulation and planning in collaboration with Jakob 
+* Did parts of descriptive statistics and analysis
+* Created and designed the data story website
+* Wrote data story descriptions and conclusions.
 
-We will both work on the final presentation in january.
+We will both work on the poster and the final presentation in January.
