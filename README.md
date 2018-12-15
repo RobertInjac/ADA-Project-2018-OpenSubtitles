@@ -46,18 +46,18 @@ In addition to the subtitles, some meta data is given about the film: duration, 
 
 The OpenSubtitles2018 dataset contains the IMDB id of each movie. We can use this id to connect the OpenSubtitles2018 dataset with the IMDB datasets. The IMDB dataset which will be used in this project is the ratings dataset which contain the average rating and number of votes for all movies in the IMDB dataset. The ratings dataset is stored in TSV format (tab-seperated-values) and is freely distributed by IMDB (https://datasets.imdbws.com/).
 
-# A list of internal milestones up until project milestone 2
-1. convert the subtitle data from XML to a more appropriate format
-2. clean the data and deal with missing/inconsistent values
-3. merge our dataset with the IMDB dataset to get more features
-4. do some descriptive statistics
-5. explore how to quantify language complexity and strongness.
 
-# A list of internal milestones up until project milestone 3
-1. Perform text complexity analysis
-2. Perform sentimental analysis
-3. Perform offensive language analysis
-4. Explore correlation between text properties and IMDB ratings
-5. Create a data story from obtained results
+# Contributions of all group members
 
-# Questions for TA
+## Jakob Svenningsson
+
+* Intial collection of data. This was done by extracting the subtitles originally stored as XML files to spark dataframes.
+* Collection of results. I wrote the scripts which calculated our results which was run on the cluster.
+* Did parts of the descriptive statistics and analysis. 
+* Created all plots for the data story.
+* Worked on problem formulation in collaboration with Robert.
+## Robert Injac
+
+
+
+We will both work on the final presentation in january.
